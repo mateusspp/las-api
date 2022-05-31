@@ -15,4 +15,5 @@ const pool = mysql.createPool({
   database: DBNAME || "las",
 });
 
+//user: DBUSER || "las" Mudei para las, todavia, deixar root
 module.exports = pool;
